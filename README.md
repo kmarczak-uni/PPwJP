@@ -1,7 +1,6 @@
-# Nazwa przedmiotu  
+# Podstawy programowania w języku Python
   
 [Kontakt i terminy konsultacji](https://ii.up.krakow.pl/pracownicy-up/marczak/)  
-[Kurs na moodle](https://moodle1.up.krakow.pl/course/view.php?id=4038)
   
 ### Laboratoria  
   
