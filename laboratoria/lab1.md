@@ -166,8 +166,8 @@ for element in lista:
   
 **Zadania**  
   
-1. Stwórz listę zawierającą liczby całkowite od 1 do 10 000, używajac generatora `range` (o generatorach więcej w kolejnych laboratoriach). Następnie użyj pętli, aby każdą liczbę w liście zwiekszyc o 1. Użyj modułu `timeit` by sprawdzić, ile czasu zajmie wykonanie tej pętli.
-2. Napisz funkcję, ktora zwróci listę `n` krotek. Każda krotka to para liczb naturalnych dająca sumę `2*n`. Wartosc `n` jest parametrem funkcji. Np. lista dla n=50: `[(0, 100), (1, 99), (2, 98), ..., (99, 1), (100, 0)]`
+1. Stwórz listę zawierającą liczby całkowite od 1 do 10 000, używajac `range` [(dokumentacja)](https://docs.python.org/3/library/stdtypes.html#range). Następnie użyj pętli, aby każdą liczbę w liście zwiększyć o 1. Użyj modułu `timeit` by sprawdzić, ile czasu zajmie wykonanie tej pętli.
+2. Napisz funkcję, ktora zwróci listę krotek. Każda krotka to para liczb naturalnych dająca sumę `2*n`. Wartosc `n` jest parametrem funkcji. Np. lista dla n=50: `[(0, 100), (1, 99), (2, 98), ..., (99, 1), (100, 0)]`
 3. Stwórz słownik przechowujący w kluczu imię i nazwisko osoby, a w wartości datę jej urodzin. Do słownika zapisz 3 różne osoby. Do przechowania daty użyj typu `date` z modułu `datetime` ([dokumentacja](https://docs.python.org/3/library/datetime.html#examples-of-usage-date)). Następnie wypisz za pomoca pętli `for` wszystkie rekordy w słowniku w formacie 'Imie Nazwisko ur. dd-mm-rr'.
 4. Przetestuj, które z omówionych powyżej typow danych można użyc w roli klucza w słowniku. Następnie porównaj swoje obserwacje z informacjami w [tym artykule](https://wiki.python.org/moin/DictionaryKeys).
 5. Poczytaj o [listach składanych](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions). Przepisz poniższe pętle tak, by używały składania list (tworzyły tę samą listę w jednej linii).
@@ -181,4 +181,3 @@ for i in range(1, 6):
     for j in range(1, 4):
         values.append((i, j))
 ```
-Wyciągnij wnioski nt. działania generatora `range()` względem podanych w nim argumentów.
