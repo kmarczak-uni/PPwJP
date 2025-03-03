@@ -20,7 +20,7 @@ for i in range(10):
 
 for i in range(5):
     if i % 2 == 0:
-        continue  # Skip printing when i is 2
+        continue
     print(i)
 
 lista = [1, 2, 3]
@@ -134,13 +134,13 @@ print(s.endswith("!"))
 Więcej w [dokumentacji](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
 **Zadania**
-1. Napisz funkcję, która zwraca inicjały (wielkimi literami) dla podanego imienia i nazwiska.
+1. Napisz funkcję, która zwraca inicjały (wielkimi literami) dla podanego imienia i nazwiska.  
 Przykład: `print(get_initials("katarzyna marczak"))  # "KM"`
 
-2. Napisz funkcję, która w podanym tekście cenzuruje (wygwiazdkuje) dane słowo.
+2. Napisz funkcję, która w podanym tekście cenzuruje (wygwiazdkuje) dane słowo.  
 Przykład: `print(censor("tekst do cenzury", "tekst"))  # "***** do cenzury"`
 
 3. Napisz funkcję, która zliczy unikalne słowa w danym napisie. Np. dla napisu "test auto test abc" zliczy : 2 wystąpienia słowa test, 1 auto i 1 abc. Zastanów się, jakiej struktury danych najlepiej użyć do tego zadania.
 
-4. Napisz funkcję, która poprawi zdanie tak, by zaczynało się od wielkiej litery i kończyło kropką.  
+4. Napisz funkcję, która poprawi zdanie tak, by zaczynało się od wielkiej litery i kończyło kropką.
 Przykład: `print(correct("popraw mnie"))  # "Popraw mnie."`  
